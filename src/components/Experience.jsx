@@ -34,15 +34,15 @@ const Experience = () => {
           <div className="e-gallery">
             <div className="gallery-item">
               <h3>Offer Letter</h3>
-              <img src="/File/CodeAlpha OfferLater.png" alt="Provide CodeAlpha Offer Letter" style={{ minHeight: '150px', background: 'rgba(255,255,255,0.05)' }} />
+              <img src="./File/CodeAlpha OfferLater.png" alt="Provide CodeAlpha Offer Letter" style={{ minHeight: '150px', background: 'rgba(255,255,255,0.05)' }} />
             </div>
             <div className="gallery-item">
               <h3>Letter of Recommendation</h3>
-              <img src="/File/CodeAlpha LOR.png" alt="Provide CodeAlpha LOR" style={{ minHeight: '150px', background: 'rgba(255,255,255,0.05)' }} />
+              <img src="./File/CodeAlpha LOR.png" alt="Provide CodeAlpha LOR" style={{ minHeight: '150px', background: 'rgba(255,255,255,0.05)' }} />
             </div>
             <div className="gallery-item">
               <h3>Completion Certificate</h3>
-              <img src="/File/CodeAlpha Certificate.png" alt="Provide CodeAlpha Certificate" style={{ minHeight: '150px', background: 'rgba(255,255,255,0.05)' }} />
+              <img src="./File/CodeAlpha Certificate.png" alt="Provide CodeAlpha Certificate" style={{ minHeight: '150px', background: 'rgba(255,255,255,0.05)' }} />
             </div>
           </div>
         </div>
@@ -60,11 +60,11 @@ const Experience = () => {
           <div className="e-gallery">
             <div className="gallery-item">
               <h3>Offer Letter</h3>
-              <img src="/File/Future Offer.png" alt="Future Intern Offer Letter" />
+              <img src="./File/Future Offer.png" alt="Future Intern Offer Letter" />
             </div>
             <div className="gallery-item">
               <h3>Completion Certificate</h3>
-              <img src="/File/Future Complete.png" alt="Future Intern Completion Certificate" />
+              <img src="./File/Future Complete.png" alt="Future Intern Completion Certificate" />
             </div>
           </div>
         </div>
@@ -82,11 +82,11 @@ const Experience = () => {
           <div className="e-gallery">
             <div className="gallery-item">
               <h3>Offer Letter</h3>
-              <img src="/File/Cognifyz Offer.png" alt="Cognifyz Technology Offer Letter" />
+              <img src="./File/Cognifyz Offer.png" alt="Cognifyz Technology Offer Letter" />
             </div>
             <div className="gallery-item">
               <h3>Completion Certificate</h3>
-              <img src="/File/Cognifyz Complete.png" alt="Cognifyz Technology Completion Certificate" />
+              <img src="./File/Cognifyz Complete.png" alt="Cognifyz Technology Completion Certificate" />
             </div>
           </div>
         </div>

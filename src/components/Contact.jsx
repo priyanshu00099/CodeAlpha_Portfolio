@@ -27,10 +27,6 @@ const Contact = () => {
       <div className="contact-grid">
         <div className="contact-info">
           <div className="info-item">
-            <h3>Phone</h3>
-            <p>+91 7667659385</p>
-          </div>
-          <div className="info-item">
             <h3>Email</h3>
             <p>singhpriyanshuraj@gmail.com</p>
           </div>

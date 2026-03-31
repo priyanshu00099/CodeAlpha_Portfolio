@@ -14,17 +14,17 @@ const Sidebar = ({ isMenuOpen, setIsMenuOpen }) => {
         {/* Toggle 'hidden' class based on state */}
         <div className={`menu ${!isMenuOpen ? 'hidden' : 'active'}`} role="navigation" aria-label="Main menu">
           <div className="img">
-            <img className="profile-pic" src="/Img/p.png.png" alt="Profile picture of Priyanshu Raj Singh" />
+            <img className="profile-pic" src="./Img/p.png.png" alt="Profile picture of Priyanshu Raj Singh" />
           </div>
           <h2>Priyanshu Raj Singh</h2>
           <div className="h">
-            <a href="https://www.instagram.com/" aria-label="Instagram"><img src="/Icon/instagram.png" alt="Instagram" /></a>
-            <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="/Icon/linkedin.png" alt="LinkedIn" /></a>
-            <a href="https://www.facebook.com/" aria-label="Facebook"><img src="/Icon/facebook.png" alt="Facebook" /></a>
-            <a href="https://www.twitter.com/" aria-label="Twitter"><img src="/Icon/twitter.png" alt="Twitter" /></a>
+            <a href="https://www.instagram.com/" aria-label="Instagram"><img src="./Icon/instagram.png" alt="Instagram" /></a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="./Icon/linkedin.png" alt="LinkedIn" /></a>
+            <a href="https://www.facebook.com/" aria-label="Facebook"><img src="./Icon/facebook.png" alt="Facebook" /></a>
+            <a href="https://www.twitter.com/" aria-label="Twitter"><img src="./Icon/twitter.png" alt="Twitter" /></a>
           </div>
           <div className="nav" id="nav">
-            <a href="#home" onClick={() => setIsMenuOpen(false)}><img src="/Icon/home.png" alt="Home" /> Home</a>
+            <a href="#home" onClick={() => setIsMenuOpen(false)}><img src="./Icon/home.png" alt="Home" /> Home</a>
             <a href="#about" onClick={() => setIsMenuOpen(false)}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> About
             </a>
